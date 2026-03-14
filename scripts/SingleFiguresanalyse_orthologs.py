@@ -25,7 +25,7 @@ warnings.filterwarnings("ignore")
 # ── CONFIGURATION ─────────────────────────────────────────────────────────────
 CSV_PATH      = os.path.expanduser("~/data/standard-RAxML/InformationTheoryTJ/Correlation_TreeStats.csv")
 TREEFILE_DIR  = os.path.expanduser("~/data/standard-RAxML/InformationTheoryTJ/InfoToCalc")
-OUTPUT_DIR    = os.path.expanduser("~/data/standard-RAxML/InformationTheoryTJ/Analysis_Output")
+OUTPUT_DIR    = os.path.expanduser("~/data/standard-RAxML/InformationTheoryTJ/Analysis_Output_PublicationStyle")
 
 PYTHIA_THRESHOLD = 0.5   # keep orthologs with Pythia difficulty BELOW this
 TCA_PERCENTILE   = 75    # keep orthologs with |TCA| in the top X percentile
